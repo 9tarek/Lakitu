@@ -1,0 +1,36 @@
+# Mapping of full track names to their abbreviations
+TRACK_PRIMARY = {
+    "Mario Bros. Circuit": "MBC",
+    "Crown City": "CC",
+    "Whistlestop Summit": "WS",
+    "DK Spaceport": "DKS",
+    "DS Desert Hills": "rDH",
+    "3DS Shy Guy Bazaar": "rSGB",
+    "N64 Wario Stadium": "rWS",
+    "DS Airship Fortress": "rAF",
+    "DS DK Pass": "rDKP",
+    "Starview Peak": "SP",
+    "Tour Sky High Sundae": "rSHS",
+    "3DS Wario Shipyard": "rWSh",
+    "SNES Koopa Troopa Beach": "rKTB",
+    "Faraway Oasis": "FO",
+    "Peach Stadium": "PS",
+    "GCN Peach Beach": "rPB",
+    "Salty Salty Speedway": "SSS",
+    "GCN Dino Dino Jungle": "rDDJ",
+    "Great ? Block Ruins": "GBR",
+    "Cheep Cheep Falls": "CCF",
+    "Dandelion Depths": "DD",
+    "Boo Cinema": "BCi",
+    "Dry Bones Burnout": "DBB",
+    "Wii Moo Moo Meadows": "rMMM",
+    "N64 Choco Mountain": "rCM",
+    "Wii Toad's Factory": "rTF",
+    "Bowser's Castle": "BC",
+    "Acorn Heights": "AH",
+    "SNES Mario Circuit": "rMC",
+    "Rainbow Road": "RR",
+}
+
+# Reverse lookup: abbreviation → full name
+TRACK_REVERSE = {abbr: full for full, abbr in TRACK_PRIMARY.items()}

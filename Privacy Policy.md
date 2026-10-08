@@ -40,7 +40,7 @@ Time-trial data is stored in a PostgreSQL database hosted by **Supabase** (supab
 We don't sell, rent or share your personal data. The only third parties involved are:
 - **Discord** – the platform the bot runs on
 - **Supabase** – database hosting (see above)
-- **MKCentral / Lounge API** – public player stats are requested from it. Your Discord user ID is only sent to look up premium members' Lounge profiles.
+- **MKCentral / Lounge API** – public player stats are requested from it. Your Discord user ID is only sent to look up players' Lounge profiles.
 
 ## 5. Data Retention and Deletion
 

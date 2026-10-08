@@ -31,15 +31,24 @@ Data is used only to provide the bot's features:
 
 We don't use your data for advertising, profiling, analytics or AI training.
 
+## 2a. Public Availability of Time-Trial Data
+
+Time-trial data you submit with `/save` is **public**. Your Discord user ID, track, mode, time and submission date can be viewed on our website **kitu.world** and are available through a public read-only API. By submitting a time, you agree that it will be published this way.
+
+Server member data (member lists, roles, names, avatars) is never published.
+
+If you don't want your times to be public, don't use `/save`, or delete your entries with `/delete` at any time. Deleted entries are removed from the website and the API immediately.
+
 ## 3. Storage and Security
 
-Time-trial data is stored in a PostgreSQL database hosted by **Supabase** (supabase.com), a third-party database provider that acts as our data processor. Supabase encrypts data in transit (TLS) and at rest. Access is restricted to the bot owner.
+Time-trial data is stored in a PostgreSQL database hosted by **Supabase** (supabase.com), a third-party database provider that acts as our data processor. Supabase encrypts data in transit (TLS) and at rest. Access is restricted to the bot owner. Public access is strictly read-only and enforced by database access policies. Nobody can modify or delete data through the public API.
 
 ## 4. Third Parties
 
 We don't sell, rent or share your personal data. The only third parties involved are:
 - **Discord** – the platform the bot runs on
 - **Supabase** – database hosting (see above)
+- **kitu.world** – our own website that displays time-trial data
 - **MKCentral / Lounge API** – public player stats are requested from it. Your Discord user ID is only sent to look up players' Lounge profiles.
 
 ## 5. Data Retention and Deletion
